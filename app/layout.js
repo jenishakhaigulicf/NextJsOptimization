@@ -1,9 +1,10 @@
-import Header from '@/components/header';
-import './globals.css';
+import Header from "@/components/header";
+import "./globals.css";
 
+// if a page does not have a metadata then layout metadata is used
 export const metadata = {
-  title: 'NextPosts',
-  description: 'Browse and share amazing posts.',
+  title: "NextPosts",
+  description: "Browse and share amazing posts.",
 };
 
 export default function RootLayout({ children }) {
