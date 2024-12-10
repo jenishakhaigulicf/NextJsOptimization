@@ -2,11 +2,15 @@ import logo from "@/assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 
+// 1. loading to lazy
+// 2. width and height
+// 3. srcset: different images for different screen of diff resolution
+
 export default function Header() {
   return (
     <header id="main-header">
       <Link href="/">
-        <Image src={logo.src} alt="Mobile phone with posts feed on it" />
+        <Image src={logo} alt="Mobile phone with posts feed on it" />
       </Link>
       <nav>
         <ul>
