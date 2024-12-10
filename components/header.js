@@ -18,6 +18,7 @@ export default function Header() {
           // height={100}
           // recommended way to resizing
           sizes={"10vw"}
+          priority
         />
       </Link>
       <nav>
