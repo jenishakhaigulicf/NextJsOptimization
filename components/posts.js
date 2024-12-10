@@ -10,6 +10,9 @@ import { togglePostLikeStatus } from "@/actions/posts";
 function Post({ post, action }) {
   return (
     <article className="post">
+      {/* update the css of the container */}
+      {/* add height and width to the container */}
+      {/* make it relative so the absolute image will take its space */}
       <div className="post-image">
         <Image src={post.image} alt={post.title} fill />
       </div>
