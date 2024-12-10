@@ -10,7 +10,15 @@ export default function Header() {
   return (
     <header id="main-header">
       <Link href="/">
-        <Image src={logo} alt="Mobile phone with posts feed on it" />
+        <Image
+          src={logo}
+          alt="Mobile phone with posts feed on it"
+          // there is a default width and height but it can be over-written
+          // width={100}
+          // height={100}
+          // recommended way to resizing
+          sizes={"10vw"}
+        />
       </Link>
       <nav>
         <ul>
